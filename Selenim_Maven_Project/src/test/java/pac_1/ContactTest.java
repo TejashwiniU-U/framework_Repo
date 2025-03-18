@@ -11,10 +11,10 @@ public class ContactTest {
 		String USERNAME =System.getProperty("username");
 		String PASSWORD =System.getProperty("password");
 		
-		System.out.println("URL");
-		System.out.println("BROWSER");
-		System.out.println("USERNAME");
-		System.out.println("PASSWORD");
+		System.out.println(URL);
+		System.out.println(BROWSER);
+		System.out.println(USERNAME);
+		System.out.println(PASSWORD);
 		System.out.println("execute createcontactTest");
 		
 		
@@ -28,12 +28,6 @@ public class ContactTest {
 		
 	}
 	
-	@Test
-	public void deleteycontactTest() {
-		
-		System.out.println("execute deleteycontactTest");
-		
-		
-	}
+	
 
 }
